@@ -1,0 +1,63 @@
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#css-grid-container {
+  display: grid;
+  gap: 8px 15px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.tile {
+  display: inline-block;
+  text-align: center;
+  padding: 28px;
+  font-size: 122px;
+  border-radius: 8px;
+}
+
+.tile:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.red {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 27, 27, 1) 0%,
+    rgba(255, 99, 187, 1) 100%
+  );
+  grid-column: span 2;
+}
+
+.orange {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 185, 27, 1) 0%,
+    rgba(255, 231, 99, 1) 100%
+  );
+}
+
+.green {
+  background: linear-gradient(
+    180deg,
+    rgba(33, 219, 28, 1) 0%,
+    rgba(190, 255, 99, 1) 100%
+  );
+}
+
+.blue {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 195, 185, 1) 0%,
+    rgba(166, 254, 255, 1) 100%
+  );
+}
+
+.purple {
+  background: linear-gradient(
+    349deg,
+    rgba(221, 122, 255, 1) 0%,
+    rgba(99, 211, 255, 1) 100%
+  );
+}

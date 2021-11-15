@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+  background-color: rgb(255, 202, 202);
+  border: 1px solid orange;
+  border-radius: 10px;
+  font-family: "Playfair Display", serif;
+}
+
+#container {
+  background-color: darkviolet;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tile {
+  background-color: rgb(56, 58, 194);
+  margin: 8px;
+  font-size: 172px;
+  padding: 8px;
+  border-radius: 8px;
+}

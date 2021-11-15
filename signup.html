@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<body>
+    <a href="index.html">Home</a>
+    <hr>
+
+    <form action="" method="get">
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password"><br><br>
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" name="birthday"><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" value="male">Male</input>
+        <br><br>
+        <input type="radio" name="gender" value="female">Female</input>
+        <br><br>
+        <input type="radio" name="gender" value="other">Other</input>
+        <br><br>
+
+        <label for="">How did you hear about us?</label><br>
+        <select name="come-from" id="">
+            <option value="friend">A friend</option>
+            <option value="social-media">Soical-Media</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <br>
+
+
+        <input type="checkbox" name="newsletter" id="">Would you like to receiveour Newsletter</input>
+        <br>
+        <br>
+
+        <input type= "submit">
+        <input type= "reset">
+    </form>
+</body>
+</html>
+
+
+<!-- 
+    http://127.0.0.1:5501/signup.html?
+    firstname=BIlly&
+    email=fake%40gmail.com&
+    password=123456&
+    birthday=2021-11-10&
+    gender=male&
+    come-from=social-media
+    &newsletter=on
+ -->
